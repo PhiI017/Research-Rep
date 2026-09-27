@@ -76,6 +76,10 @@ Status: `raw` (stated, not tested) · `testing` · `holds` · `broken` · `parke
 - Source: the interview notes. This is the bear case to T1 and should be tracked alongside it.
 - Test: AI capex vs. AI revenue at the hyperscalers, and whether the gap narrows.
 
+### T7 — Adobe: AI implementation, not takeover · `testing` (held)
+- Full thesis: `theses/adobe.md`. Distribution plus AI inside the tools, with pricing moving from
+  seats to seats plus usage (credits). The internal-AI leg is unproven (opex +15% > revenue +13%).
+
 ## Methods (not theses, but rules to test)
 
 - **Asymmetric bets:** "priced at X%, true odds about 2X%". Worth taking only if the odds
