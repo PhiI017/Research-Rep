@@ -18,7 +18,8 @@ Pointers only. Open a file when the task needs it.
 
 ## How I want you to work
 - Be precise. Avoid absolute words ("every", "always", "most") unless backed by data; give the actual percentage and source.
-- Label every claim as one of: verified (filing/report), your calculation, general knowledge (approximate), or opinion.
+- Label every claim: [S] read directly from a primary source by a script (`quote.py`, `shares.py`) · [V] reported as from a filing/release but not read · [C] calculation · [G] approximate · [O] opinion.
+- Valuation runs: ONE exit multiple for every stock (16x, the user's market-average rule), always shown with 12x and 20x; share counts from SEC cover pages (`shares.py`), never from summaries. A base case inside the 12x-20x band of another is not a ranking difference.
 - Verify numbers with current sources; flag stale prices.
 - **Prices must be CURRENT, including after-hours, overnight and weekend trading** (the user trades on Robinhood, which runs 24-hour sessions). Fetch a fresh quote before using a price, state its time and session (regular / after-hours / overnight), and re-run any valuation whose price moved. A last close is not "current".
 - Teach from first principles when I ask to learn something; define terms.
@@ -42,7 +43,7 @@ Everything added is re-sent every later turn, so early additions cost most.
 - `titan-class-notes.md` — the condensed class notes, the Tier A/B watchlist, and the six questions every AI theory goes through. **Start here for titan work.**
 - `theses/REGISTER.md` — every thesis, its status, its test, and its break condition. Robotics is PINNED there. `theses/thoughts-*.md` are the user's raw notes, word for word.
 - `findings/YYYY-MM-DD.md` — dated results. Each ends with a paper-trade ledger of dated calls to score later.
-- `scripts/` — `dcf.py` (10-yr low/mid/high return and 9%/12% values), `margin_test.py` (staged-margin plan vs S&P history), `quote.py` (latest price incl. after-hours — run before citing any price).
+- `scripts/` — `dcf.py` (10-yr low/mid/high return and 9%/12% values), `margin_test.py` (staged-margin plan vs S&P history), `quote.py` (latest price incl. after-hours — run before citing any price), `shares.py` (share counts from SEC cover pages; args TICKER=CIK).
 - `data/spx_daily.csv` — S&P 500 daily closes 1960-01-04 to 2026-09-11, price only (no dividends). Copied from kleague-model's store.
 - Page fetching was blocked in the first session; figures came from search summaries. Re-verify before acting.
 - Research only. Do not build apps or tools here unless asked.

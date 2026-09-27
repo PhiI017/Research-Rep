@@ -9,6 +9,77 @@ thesis, bull case and bear case for each of the twelve stocks.
 Robinhood overnight/weekend trades are not included. Biggest moves vs. the first draft:
 ALNT $109.35 → $116.01, MYRG $279.28 → $292.58. No verdict changed.
 
+---
+
+## REVISION after external review (2026-09-27) — read this before Part 2
+
+Six criticisms were raised; all six were accepted. What changed:
+
+**1. One exit multiple for every stock.** The per-stock multiples (Walmart 30x, Booking 18x…)
+came from each stock's own trading history, which carries today's valuation a decade forward
+and makes cross-stock comparison unequal. Following the user's own method (market average
+15-16x) and the project's rule of one number for all (like the 18-month claim horizon), every
+name is re-run at **16x**, with 12x and 20x shown to measure how much that single input moves
+the answer. Shares from SEC cover pages, prices from `quote.py` [C]:
+- BKNG base 16.5% (12x 14.3 / 20x 18.4) · bear 7.8 · bull 21.2
+- MYRG base 9.7% (7.5 / 11.6) · bear 1.6 · bull 16.6
+- LASR base 8.4% (6.0 / 10.3) · bear -12.4 · bull 23.2
+- RCAT base 6.6% (4.1 / 8.6) · bear -16.3 · bull 22.3
+- ALNT base 5.8% (3.5 / 7.6) · bear -2.5 · bull 14.0
+- HUBB base 5.6% (3.4 / 7.4) · bear -0.1 · bull 9.4
+- PEP base 4.7% (2.6 / 6.5) · bear -0.1 · bull 7.5
+- PWR base 4.4% (2.1 / 6.2) · bear -3.3 · bull 11.0
+- WMT base -2.6% (-4.7 / -0.8) · bear -6.8 · bull 2.3
+- (Adobe, held, for comparison: base 23.5% (21.3 / 25.4) · bear 17.5 · bull 28.4)
+JPM, UNH and BRK are earnings/book-based and not in this run.
+
+**2. The honest reading of the ranking.** One clear pass (BKNG: above 12% at every multiple from
+12x to 20x), one clear fail (WMT), and eight names the model cannot order among themselves — the
+spread from one input exceeds their differences. What IS resolvable: **none of those eight clears
+the 12% bar even at 20x.** MYR Group, which cleared it before only on a per-stock multiple, no
+longer does (11.6% at 20x) and **leaves the short list**; it stays a ground-truth watch name.
+Use the ranking as a shortlist generator; use the break conditions (below) as the instrument —
+they resolve in one to four quarters, a ranking of this many close names would take years.
+
+**3. Share counts verified.** Read from SEC cover pages via `scripts/shares.py` (XBRL `dei`):
+ALNT 17.00M · LASR 57.69M · RCAT 152.71M · BKNG 751.38M · JPM 2,658.19M · WMT 7,933.75M ·
+MYRG 15.57M · HUBB 52.83M · PWR 150.34M · UNH 897.59M · PEP 1,364.89M · ADBE 389.20M.
+Material differences from the draft: JPM -3% (2,745M used), ADBE -5% (~410M used, so Adobe is
+cheaper than stated), UNH -1%. Berkshire stopped tagging a cover-page count in 2011 — unverified,
+but its case is per-share book value, so the count doesn't drive it.
+
+**4. Labels sharpened.** In this report, [V] meant "a search summary attributes this to a filing
+or release" — reported, not read. Only figures marked "quote" (from `quote.py`) or "SEC cover
+page" (from `shares.py`) were read directly from the source. From now on: **[S]** read directly
+from a primary source by a script · **[V]** reported as from a filing/release but not read ·
+[C] calculation · [G] approximate · [O] opinion.
+
+**5. Booking's low P/E is not evidence the market is wrong.** P/E 17 vs a ten-year median of 32
+is most likely the market pricing the exact risk in the bear case — AI assistants taking the
+trip-search step. The low multiple and the risk are the same fact. Booking's case rests on
+measured savings and margin, not on "below its own history"; the instrument is AI referrals as a
+share of room nights (<1% today; break at 10%).
+
+**6. Berkshire as a hedge, tested on every Nasdaq fall of 20%+ since 1996** (Yahoo adjusted
+closes [S], [C]): 1998 Nasdaq -30% / BRK-B -23% · 2000-02 -78% / **+65%** · 2007-09 -56% / -48% ·
+2018 -24% / -11% · 2020 -30% / -29% · 2021-22 -36% / **+8%** · 2024-25 -24% / **+8%**.
+Berkshire fell less in all seven, but rose in only three. It held up in the **tech-bust** shape
+(2000-02, the closest analogue to an AI-capex bust) and in rate shocks, but fell almost as much in
+**liquidity crashes** (2008, 2020) — the exact crashes that trigger margin calls. So: a hedge
+against an AI bust, not against a panic. Verdict unchanged, reasoning corrected.
+
+**Revised short list:** BKNG (clear pass) · BRK.B (AI-bust hedge, per point 6) · ALNT (robotics
+watchlist, buy only on a large drop) · MYRG moved to watch.
+
+**The instrument — break conditions by date:**
+- Oct 8, 2026 — PEP: 2026 guidance cut?
+- Late Oct / early Nov 2026 (Q3 reports) — BKNG take rate and AI-referral share; MYRG T&D
+  backlog; ALNT bookings vs sales; LASR defense growth and China-parts delay; RCAT revenue pace
+  toward $120M+; HUBB utility organic growth; PWR backlog q/q; JPM overhead ratio; UNH medical
+  care ratio vs 89%.
+- Mid-Dec 2026 — ADBE Q4 (see `theses/adobe.md` two-part rule).
+- FY2026 year-end — RCAT revenue ≥ $120M; WMT operating margin path to 4.5% by FY28.
+
 **Labels:** [V] verified from a filing or company release · [C] my calculation ·
 [G] general knowledge or an approximate figure from an aggregator · [O] opinion.
 **Nothing here is financial advice.**

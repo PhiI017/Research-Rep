@@ -106,3 +106,5 @@ BKNG $164.55 · MYRG $292.58 · ALNT $116.01 · BRK.B $505.56 · LASR $40.50 · 
 HUBB $466.62 · PWR $649.13 · JPM $343.10 · WMT $107.91 · UNH $377.17 · PEP $128.75
 Base cases re-run at these prices [C]: ALNT 8.5% · MYRG 10.7% · LASR 12.3% · BKNG 17.5% ·
 PWR 9.2% · PEP 6.0% · WMT 2.5%. No verdict changed.
+**SUPERSEDED:** see the REVISION section of `2026-09-27-claude-picks-full-report.md` — uniform 16x
+multiple, SEC share counts, MYRG off the short list, Berkshire hedge re-tested.
