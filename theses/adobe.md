@@ -32,10 +32,13 @@ not replacing it.
 **What the earnings can't show yet [O]:** Adobe doesn't report professional seats separately, and
 much of the user growth is Acrobat/Express, not pro Creative Cloud. So "pros are staying" is
 consistent with the numbers, not proven by them.
-**The sharper risk to this leg [O]:** not that professionals leave, but that each one does more
-with AI, so companies need fewer of them (fewer seats per project). Usage-based credits are the
-offset. Also watch the entry level: if beginners learn on Canva and AI tools, fewer become Adobe
-pros later.
+**Seat compression — a watch item, not evidence [O]:** a possible future risk is each
+professional doing more with AI so companies need fewer seats. No reported data shows it yet;
+usage-based credits would be the offset if it appears.
+**Beginners — the data leans the user's way [V/O]:** Canva and AI generators don't offer the
+precision and control professionals need. And beginners are coming INTO Adobe: the free creative
+tier grew 70% to 100M+ users [V]. The competitor worth tracking at the pro level is Affinity
+(pro-grade tools Canva bought and made free [G]), not Canva's own editor.
 **Test:** management commentary on Creative Cloud Pro seats and renewals each quarter; the
 pro-tier price increases holding without churn.
 
