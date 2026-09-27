@@ -20,6 +20,19 @@ Context carried over from a long claude.ai chat (Sept 2026). Read this before st
 - Teach from first principles when I ask to learn something; define terms.
 - No risk lectures, but be honest when a thesis is weak. You are not a financial advisor.
 
+## Context is a budget, not a buffer (user's rule, 2026-09-27)
+Everything added is re-sent every later turn, so early additions cost most.
+1. Edit files with the edit tool (old text → new text). No read-replace-write scripts; never rewrite a whole file to change part.
+2. Read slices: grep with line numbers, then read only the range needed.
+3. Never poll or sleep; use a waiting primitive or a scheduled check-in.
+4. Ask every tool for the least output: summaries, small pages, tails, fields.
+5. Big one-off reads (transcripts, logs, wide searches) go to a subagent; keep only its conclusion.
+6. Don't verify what a tool already confirmed; don't read back an edit.
+7. Say a result once; don't restate command output or summarise a summary.
+8. Keep this file short and pointer-shaped; detail goes in files opened only when needed.
+9. When the job changes, start a new conversation.
+10. Before adding more than a few thousand characters in one call, say in one line why it can't live in a file or subagent.
+
 ## My four-step valuation method (use for all stock work)
 1. **Real price:** market cap -> enterprise value (+debt, -cash). Size net debt in years of free cash flow (~2.5 yrs is reasonable).
 2. **Eight pass/fail pillars over 5-10 yrs:** 5yr P/E, 5yr price/FCF, ROIC, revenue growth, profit margin, FCF growth, share count, debt.
