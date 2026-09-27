@@ -31,3 +31,25 @@ Only a shrinking business loses money from here.
 ## Paper-trade ledger
 - 2026-09-27 · ADBE · $235.69 · hold / add · check: Q4 FY26 report mid-Dec (ARR vs 10.2% guide,
   net new ARR, any seat commentary), first moves of the new CEO.
+
+## News scan, June-Sept 2026 (added 2026-09-27)
+**No break condition hit.** Two near-misses:
+1. **ARR target lowered in June** to 10.2% (even with Semrush added), blamed on the freemium push
+   and *deferred Creative Cloud price increases* [V]. Revenue/EPS guidance raised twice. Correction
+   to the scorecard above: an ARR guide WAS lowered; revenue guidance was not.
+2. **Net new ARR -36% y/y in Q3**; contracted future revenue (RPO) +8% vs revenue +13% [V/G].
+   Q4 needs ~$775M net new ARR (about double Q3) to hit 10.2% (Morgan Stanley) [O].
+   A Q4 miss (mid-Dec, new CEO's first weeks) would turn the guidance condition into a hit.
+Other negatives: CFO left abruptly 6/15, search open [V]; Narayen sold ~34% of his shares
+(~$31M, 9/16-17) [V] — likely a departing CEO diversifying; JPM target $340 → $315 [G];
+Q3 FCF possibly -9.5% y/y (unverified) [G].
+**Strengthening:** Firefly ARR +40% in a quarter; AI-first ARR >$650M +150%; 25+ partner models in
+Firefly (Google, OpenAI, Runway, Luma, ElevenLabs) — confirms the token-resale leg; free tier
+100M+ +70%; GenStudio >20%; share count -5.8% in a year; FTC case settled for $150M in March [V].
+**Rule fix needed:** Adobe no longer reports "Digital Media"; judge that rule on total ARR or the
+Creative customer group instead.
+Sources: [Q3 release](https://www.sec.gov/Archives/edgar/data/0000796343/000079634326000147/adbeex991q326.htm) ·
+[Morgan Stanley note](https://www.thestreet.com/investing/adobe-stock-morgan-stanley-rating-1-billion-users) ·
+[Q2 analysis](https://semiconalpha.substack.com/p/adobe-q2-fy2026-record-revenue-but) ·
+[Narayen sale](https://finance.yahoo.com/markets/stocks/articles/adobe-ceo-shantanu-narayen-sells-212001776.html) ·
+[FTC settlement](https://www.justice.gov/opa/pr/adobe-agrees-150-million-settlement-and-injunction-resolve-alleged-violations-restore-online)
