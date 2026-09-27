@@ -33,11 +33,28 @@ Status: `raw` (stated, not tested) · `testing` · `holds` · `broken` · `parke
   trailing FCF negative (capex). The thesis is a MARGIN thesis, so it must show up in margins.
 - Test: North America segment operating margin, quarter by quarter; units shipped per
   employee (or headcount vs. volume); robot count disclosures. Break condition: not yet written.
+- Sizing (2026-09-27): 2025 fulfillment expense $109.1B [V], 15% of $717B sales [C];
+  1,576,000 employees [V]. North America 2025: $426.3B sales, $29.6B operating income, 6.9%
+  [V/C]; Q2 2026 7.9% vs 7.5% a year earlier [V]. Leaked internal plan (NYT, Oct 2025; Amazon
+  called it incomplete): automate 75% of operations, avoid 600,000 hires by 2033, ~30 cents
+  saved per item, $12.6B saved 2025-27 [reported]. 600,000 × ~$55k loaded cost ≈ **$33B/yr by
+  2033** [C, cost per worker is G] — about equal to ALL of North America's 2025 operating
+  income. If kept, NA margin roughly 7% → 10-11% on 2033 sales [C]. The user's point stands:
+  the pool is large. Open: kept vs. passed on as prices, and whether $248-era prices assume it.
+- Robots in use [V, Amazon]: 1M+ deployed; Sequoia (inventory storage, 75% faster), Vulcan and
+  Sparrow (picking items), Proteus (autonomous carts), Blue Jay (same-day workstation); ~75% of
+  global deliveries robot-assisted. Shreveport site: ~10x robots, ~25% fewer workers.
+- Next: re-run the valuation with an explicit robotics-savings path (keep 100% / 50% / 0%).
 
-### T3 — Robinhood captures the generational wealth transfer · `raw`
-- Source: user, 2026-09-27. Separate from AI.
-- Test: net deposits, funded customers, assets under custody and its growth rate, retirement
-  and advisory assets, age mix of customers. Break condition: not yet written.
+### T3 — Robinhood wins the next generation of investors · `raw`
+- Source: user, 2026-09-27. Separate from AI. Reframed by the user: the core is how young
+  investors see Robinhood — the app, the brand, prediction markets — and the inheritance is
+  a later tailwind as those customers age and get richer.
+- Test: funded customers; net deposits as % of assets; average assets per customer rising
+  over time (young accounts are small — the thesis pays when they grow); Gold subscribers;
+  retirement accounts; prediction-market (event contract) volume and revenue; share of new
+  under-35 brokerage accounts. Watch: copyable UI (Schwab/Fidelity apps), prediction-market
+  competition (Kalshi, Polymarket, Coinbase) and regulation. Break condition: not yet written.
 
 ### T4 — US government will not let China lead in AI · `raw`
 - Source: user, 2026-09-27. Supports T1.
