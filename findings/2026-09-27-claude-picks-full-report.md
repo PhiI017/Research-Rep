@@ -4,9 +4,10 @@ Companion to `2026-09-27-claude-picks.md` (the short version). This file explain
 process step by step, lists every number used and where it came from, and gives the full
 thesis, bull case and bear case for each of the twelve stocks.
 
-**Price note:** prices below are as the research helpers found them (9/20-9/26). Refreshed
-latest trades and re-run base cases are in the ledger of `2026-09-27-claude-picks.md`; the
-biggest moves were ALNT $109.35 → $116.01 and MYRG $279.28 → $292.58. No verdict changed.
+**Price note (updated):** every price below is the latest trade from `scripts/quote.py`
+(Yahoo, Friday 2026-09-25 after-hours), and every 10-year return is re-run at that price.
+Robinhood overnight/weekend trades are not included. Biggest moves vs. the first draft:
+ALNT $109.35 → $116.01, MYRG $279.28 → $292.58. No verdict changed.
 
 **Labels:** [V] verified from a filing or company release · [C] my calculation ·
 [G] general knowledge or an approximate figure from an aggregator · [O] opinion.
@@ -83,8 +84,8 @@ margin-of-safety prices where useful.
 - **Red Cat:** the helper's growth rates (60-85% a year) were four-year rates. Compounded for
   ten years they imply $8B+ revenue from $72M, which is not credible. I re-ran it with ten-year
   rates (15/32/45%) and added 30% more shares for continued dilution.
-- **Booking:** the $163.95 price and 751M shares imply a stock split I could not confirm.
-  Market cap (~$123B) is consistent, so the return math holds, but verify the per-share price.
+- **Booking:** the ~$164 price and 751M shares imply a stock split; the live quote ($164.55)
+  confirms the post-split price.
 - **Duolingo, from earlier:** counted stock-based pay as a cost, which moved the base case from
   22.5% to 13.6%. The same principle is why I did not use "adjusted" figures as the main case.
 
@@ -108,7 +109,7 @@ margin-of-safety prices where useful.
 ### Category 1: Emerging titans
 
 #### ALNT — Allient · watchlist (Tier B)
-**Data:** price $109.35 on 9/21/2026 [G]; 17.0M shares [G]; market cap ~$1.86B [G]; net debt
+**Data:** price $116.01 (latest trade, Fri 9/25 after-hours) [V, quote]; 17.0M shares [G]; market cap ~$1.97B [C]; net debt
 $131M [V]. Revenue $554.5M FY2025 [V], ~$582M trailing [C]. Growth accelerated from +4.6%
 (FY25) to +10% (Q2 2026) [V]; bookings +49%; backlog $298M, +26% [V]. Gross margin 34.9% vs
 33.2% [V]. FCF ~$48M FY25 (operating cash flow $56.7M minus capex) [C]. CEO Dick Warzala owns
@@ -118,7 +119,7 @@ through acquisitions, with dips in 2020 and 2024 [G].
 **Lenses:** bottleneck — humanoid and industrial robots need compact, high-torque motors and
 actuators; data-center power quality is a second leg. Ground truth — record bookings [V], humanoid
 motor white paper and Robotics Summit demos (trade press); no lead-time evidence found. Priced in
-— re-rated to ~38x FCF [C]. Policy — tariffs cut both ways; defense demand helps. Cycle —
+— re-rated to ~41x FCF [C]. Policy — tariffs cut both ways; defense demand helps. Cycle —
 cyclical history.
 
 **Thesis:** Robots are the pinned research theme, and every robot is built from motors, drives
@@ -126,16 +127,16 @@ and actuators. Allient already sells them, its order book is accelerating, margi
 and the CEO owns a real stake. If robotics scales, Allient is re-rated from a cyclical industrial
 into a robotics bottleneck.
 
-**Bull case:** growth 16% a year, FCF margin 12%, exit 28x → **~20% a year** [C]; 2030 price
+**Bull case:** growth 16% a year, FCF margin 12%, exit 28x → **~19.1% a year** [C]; 2030 price
 ~$216 [helper]. Requires robotics orders to become a large share of sales.
-**Bear case:** growth 4%, FCF margin 8%, exit 16x → **about -2% a year** [C]; 2030 price ~$45
+**Bear case:** growth 4%, FCF margin 8%, exit 16x → **about -2.5% a year** [C]; 2030 price ~$45
 [helper]. The industrial cycle turns and robotics stays a small niche.
-**Base case:** 10% / 10% / 22x → **9.2% a year** [C]. Fair value at 12% ≈ $86 [C].
+**Base case:** 10% / 10% / 22x → **8.5% a year** [C]. Fair value at 12% ≈ $86 [C].
 **Break condition:** bookings below sales for two straight quarters.
 **Sources:** [Q2 2026 call highlights](https://www.gurufocus.com/news/9014207/allient-inc-alnt-q2-2026-earnings-call-highlights-record-bookings-and-gross-margin-fuel-strong-growth-outlook) · [Q2 2026 10-Q](https://www.sec.gov/Archives/edgar/data/0000046129/000110465926091098/alnt-20260630x10q.htm)
 
 #### LASR — nLIGHT · watchlist (Tier B), asymmetric
-**Data:** $40.00 on 9/26/2026 [G]; ~58M shares [G]; ~$2.33B [G]; net cash $331M, no debt [V].
+**Data:** $40.50 (latest trade, Fri 9/25 after-hours) [V, quote]; ~58M shares [G]; ~$2.35B [C]; net cash $331M, no debt [V].
 Revenue $261.3M FY25, +32% [V]; ~$310M trailing [C]; Q2 +34%, defense +72% [V]. Q3 guide cut to
 $63-73M because China-sourced parts delayed $17M of shipments [V]. Gross margin 31.1% vs 29.9%;
 product gross margin 41.2% [V]. Record operating cash flow $20.7M in Q2 [V]. Founder-CEO Scott
@@ -149,15 +150,15 @@ on a real guide cut.
 
 **Thesis:** Defense is turning a cyclical industrial-laser maker into the supplier of the core
 component of directed-energy weapons, with a debt-free balance sheet.
-**Bull:** 28% growth, 18% FCF margin, 30x → **~30% a year** [C]; 2030 ~$83 [helper].
+**Bull:** 28% growth, 18% FCF margin, 30x → **~29.5% a year** [C]; 2030 ~$83 [helper].
 **Bear:** 5%, 5%, 15x → **about -13% a year** [C]; 2030 ~$10 [helper] — commercial slump plus
 program delays.
-**Base:** 18% / 12% / 25x → **12.5% a year** [C], just over your bar.
+**Base:** 18% / 12% / 25x → **12.3% a year** [C], just over your bar.
 **Break:** defense growth below 15%, or the China-parts delay repeats.
 **Sources:** [Q2 2026 release](https://s23.q4cdn.com/868502988/files/doc_financials/2026/q2/v2/nLIGHT-Q2-Earnings-Release_FINAL.pdf) · [Q2 slides](https://www.investing.com/news/company-news/nlight-q2-2026-slides-defense-drives-record-despite-outlook-cut-93CH-4844767) · [CEO sale](https://www.fool.com/coverage/filings/2026/08/25/nlight-s-ceo-sells-over-360-000-shares-for-usd16-5-million-as-the-stock-drops-post-earnings/)
 
 #### RCAT — Red Cat · lottery ticket only
-**Data:** $6.70 on 9/27/2026 [G]; 152.7M shares [G]; ~$1.02B [G]; cash $325.6M [V], debt not
+**Data:** $6.70 (latest trade, Fri 9/25 after-hours) [V, quote]; 152.7M shares [G]; ~$1.02B [G]; cash $325.6M [V], debt not
 confirmed. Revenue $40.7M FY25 [V]; ~$72M trailing [C]; Q1 +849%, Q2 +527% [V]; FY26 guide
 $150-180M [V], which needs ~$115-145M in the second half [C]. Gross margin 3.1% (FY25) → 16.1%
 (Q2) [V]. Operating cash burn $78.7M in H1 [V]. CEO Jeff Thompson ~7.7% [V/C]. Shares +36% in a
@@ -184,7 +185,7 @@ $425-475M [V]), no owner-leader, $1.2B converts ([Q2 release](https://investors.
 ### Category 2: Big companies winning from AI implementation
 
 #### BKNG — Booking Holdings · SHORT LIST #1
-**Data:** $163.95 on 9/25/2026, post-split [G — verify]; 751M shares [G]; ~$123B [G]; cash
+**Data:** $164.55 post-split (latest trade, Fri 9/25 after-hours) [V, quote]; 751M shares [G]; ~$124B [C]; cash
 $17.2B [V], net debt ~$10B [G, debt not confirmed]. Revenue $26.92B FY25 [V], ~$28.5B trailing
 [G]. Operating margin ~21% (FY21) → 28% → 30% → 32% → 34.5% (FY25) [G/V]; Q2 2026 34.0%, +91bp
 [V]. FCF $9.09B FY25 [V]. Customer-service cost fell year on year while volume grew 10% [V];
@@ -205,12 +206,12 @@ price below its own history. It is a cash machine that buys back ~4% of its shar
 plus buybacks.
 **Bear:** 3%, 26%, 12x → **~5.7% a year** [C]; 2030 ~$143 [helper] — AI assistants win the
 search step and push the commission rate down.
-**Base:** 8% / 33% / 18x → **17.6% a year** [C]. Fair value at 12% ≈ $246/share [C].
+**Base:** 8% / 33% / 18x → **17.5% a year** [C]. Fair value at 12% ≈ $246/share [C].
 **Break:** commission (take) rate falls two years running, or AI referrals pass 10% of room nights.
 **Sources:** [Q2 2026 release](https://www.sec.gov/Archives/edgar/data/0001075531/000107553126000036/q2-26bkngearningsrelease.htm) · [AI cuts customer-service costs](https://www.pymnts.com/earnings/2026/ai-cuts-booking-holdings-customer-service-costs-10-as-volumes-rise/) · [P/E history](https://www.gurufocus.com/term/pettm/BKNG)
 
 #### JPM — JPMorgan Chase · thesis right, priced in
-**Data:** $343.10 on 9/27/2026 [G]; ~$942B [G]; ~2,745M shares [C]. Price/tangible book 3.27x
+**Data:** $343.10 (latest trade, Fri 9/25 after-hours) [V, quote]; ~$942B [G]; ~2,745M shares [C]. Price/tangible book 3.27x
 vs 10-year median 2.0x [V]. Revenue ~$185B FY25 [G], ~$195B trailing [G]. Overhead ratio ~59%
 (FY21) → 52% (FY25) → 47% (Q2 2026) [G/V]. Net income $57B FY25 [V]. Management cites $2B saved
 from AI [V]; accounts per operations employee +25%, servicing calls per account -30%, processing
@@ -227,7 +228,7 @@ FCF, so no `dcf.py` run.)
 **Sources:** [Q2 2026 release](https://www.sec.gov/Archives/edgar/data/0000019617/000162828026048078/a2q26erfexhibit991narrative.htm) · [headcount guide](https://www.theglobeandmail.com/investing/markets/stocks/JPM/pressreleases/32477655/ai-efficiency-to-trim-jpmorgan-jpm-headcount-by-10-over-five-years/)
 
 #### WMT — Walmart · thesis working, stock fails
-**Data:** ~$107 [C, from $853.6B market cap on 9/24 [G]]; net debt ~$40B ex-leases [G].
+**Data:** $107.91 (latest trade, Fri 9/25 after-hours) [V, quote], ~$861B [C]; net debt ~$40B ex-leases [G].
 Revenue $713B FY26 [V], ~$730B trailing [G]. Operating margin ~4.5%, 3.3%, 4.2%, 4.3%, 4.18%
 FY22-26 [G/V]. FCF $14.9B FY26 [V]. Headcount flat at 2.1M for three years while sales grow [V];
 60% of stores fed by automated distribution centers [V]; shopping agent (Sparky) live [V].
@@ -236,11 +237,11 @@ P/E ~40 vs 5-year average ~28 [G].
 **Thesis:** Walmart proves AI and automation let a giant grow without adding people — but its
 everyday-low-price model passes savings to shoppers (flat margin for five years), and the stock
 already trades at a premium.
-**Bull:** 6%, 3.5% FCF margin, 38x → **~9.8% a year** [C]; 2030 ~$156 [helper] — advertising
+**Bull:** 6%, 3.5% FCF margin, 38x → **~9.7% a year** [C]; 2030 ~$156 [helper] — advertising
 and membership lift the mix.
-**Bear:** 3%, 2.0%, 22x → **about -4.3% a year** [C]; 2030 ~$41 [helper] — the multiple
+**Bear:** 3%, 2.0%, 22x → **about -4.4% a year** [C]; 2030 ~$41 [helper] — the multiple
 returns to normal.
-**Base:** 4.5% / 2.6% / 30x → **2.6% a year** [C].
+**Base:** 4.5% / 2.6% / 30x → **2.5% a year** [C].
 **Break:** operating margin still under 4.5% by FY28.
 **Sources:** [FY26 Q4 release](https://www.sec.gov/Archives/edgar/data/104169/000010416926000032/earningsreleasefy26q4.htm) · [growing without adding staff](https://finance.yahoo.com/news/walmart-plans-grow-revenue-without-223146661.html)
 
@@ -250,31 +251,31 @@ to 17.3% ([Fortune](https://fortune.com/2026/05/26/uber-coo-ai-spending-tokens-c
 ### Category 3: Picks and shovels
 
 #### MYRG — MYR Group · SHORT LIST #2
-**Data:** $279.28 on 9/20/2026 [V, Reuters close]; ~15.6M shares [C]; ~$4.35B [G]; net cash
+**Data:** $292.58 (latest trade, Fri 9/25 after-hours) [V, quote]; ~15.6M shares [C]; ~$4.56B [C]; net cash
 $91M at year-end 2025 [V], then $328M paid for Valley/Comet [V] → net debt ~$200M [G]. Revenue
 $3.66B FY25 [V], ~$4.0B trailing [G]. Backlog $3.16B, +19.6% [V]; transmission & distribution
 share $1.27B [V]; commercial & industrial ~60% of backlog [C]. C&I operating-margin guide raised
-to 5-7.5% [V]. Q4 2025 FCF $85M [V]. P/E ~26x trailing, ~23x forward [G/C]. Down ~45% from a
+to 5-7.5% [V]. Q4 2025 FCF $85M [V]. P/E ~26x trailing, ~23x forward [G/C]. Down ~42% from a
 $503.57 high [G] in a sector-wide selloff with AGX, LGN, ECG [G]. Margin problems in 2024 [G].
 
 **Lenses:** bottleneck — skilled linemen and electricians, the scarcest input in the buildout.
 Ground truth — **your job**: watch whether its subsidiaries (Sturgeon Electric, Great
 Southwestern, Harlan Electric) are winning bids or hiring journeymen near you. Forced vs.
-fundamental — backlog rising while the stock fell 45% points to forced/sector selling, **but
+fundamental — backlog rising while the stock fell ~42% points to forced/sector selling, **but
 the reason was not confirmed — check before buying.** Cycle — cyclical. Policy — permitting
 delays on big transmission lines.
 
 **Thesis:** The purest play on the labor bottleneck behind the grid buildout, possibly bought
 after a crowded-trade flush, in the one industry where you have a real information edge.
-**Bull:** 13% growth, 5.5% FCF margin, 22x → **~20% a year** [C]; 2030 ~$565 [helper].
-**Bear:** 4%, 3.5%, 13x → **~0.6% a year** [C]; 2030 ~$134 [helper] — a data-center pause hits
+**Bull:** 13% growth, 5.5% FCF margin, 22x → **~19.4% a year** [C]; 2030 ~$565 [helper].
+**Bear:** 4%, 3.5%, 13x → **~0.0% a year** [C]; 2030 ~$134 [helper] — a data-center pause hits
 C&I and margins slip again.
-**Base:** 9% / 4.5% / 18x → **11.3% a year** [C]; fair value at 12% ≈ $265 [C].
+**Base:** 9% / 4.5% / 18x → **10.7% a year** [C]; fair value at 12% ≈ $265 [C].
 **Break:** transmission & distribution backlog shrinks, or another project write-down.
 **Sources:** [Q2 2026 results](https://www.globenewswire.com/news-release/2026/07/29/3335606/10748/en/myr-group-inc-announces-second-quarter-and-first-half-2026-results.html) · [FY2025 results](https://www.globenewswire.com/news-release/2026/02/25/3245028/10748/en/MYR-Group-Inc-Announces-Fourth-Quarter-and-Full-Year-2025-Results.html) · [sector selloff](https://news.alphastreet.com/myr-group-drops-6-7-amid-sector-wide-selling/amp/)
 
 #### HUBB — Hubbell · fair, not cheap
-**Data:** $466.62 on 9/26/2026 [G]; ~52.7M shares [C]; ~$24.6B [G]; long-term debt $4.80B at
+**Data:** $466.62 (latest trade, Fri 9/25) [V, quote]; ~52.7M shares [C]; ~$24.6B [G]; long-term debt $4.80B at
 6/30 after the $3.0B NSI deal [V], net debt ~$5B [G]. Revenue $5.8B FY25 [V], ~$6.2B trailing
 [G]; 2026 guide +16-18% [V]. Utility segment adjusted operating margin 25.5% → 25.6% [V]; Grid
 Infrastructure +12% [V]. FCF $874.7M FY25 [V]. P/E ~22.9x 2026 adjusted EPS of $20.40 [C] vs
@@ -291,7 +292,7 @@ debt from the acquisition.
 **Sources:** [Q2 2026 results](https://hubbell.gcs-web.com/news-releases/news-release-details/hubbell-reports-second-quarter-2026-results) · [Q2 10-Q](https://www.sec.gov/Archives/edgar/data/0000048898/000162828026050405/hubb-20260630.htm)
 
 #### PWR — Quanta Services · best company, priced for it
-**Data:** $645.21 on 9/22/2026 [G]; ~150M shares [G]; ~$97B [C]; net debt ~$6.5B, 1.7x
+**Data:** $649.13 (latest trade, Fri 9/25 after-hours) [V, quote]; ~150M shares [G]; ~$97B [C]; net debt ~$6.5B, 1.7x
 debt/EBITDA [V/G]. Revenue $28.48B FY25 [V], $32.9B trailing [C]; 2026 guide $39.3-39.7B [V].
 Backlog $44B → $53B in six months [V]. Adjusted EBITDA margin ~11% [G]. FCF $1.7B FY25 [V];
 2026 guide $2.0-2.5B [V]. 38.6x 2026 EPS vs 5-year average ~25-30x [C/G]; EV/FCF ~46x [C];
@@ -301,8 +302,8 @@ up 461% in five years [G]; fell 16-18% in one day on DeepSeek (Jan 2025) [G].
 widest moat in the labor bottleneck. The price already assumes it; the next AI scare is the
 entry. Ground truth: Quanta crews and new training yards in your region.
 **Bull:** 16%, 7%, 32x → **~17.5% a year** [C]; 2030 ~$1,070 [helper].
-**Bear:** 5%, 5%, 20x → **about -1.5% a year** [C]; 2030 ~$287 [helper].
-**Base:** 11% / 6% / 28x → **9.3% a year** [C].
+**Bear:** 5%, 5%, 20x → **about -1.6% a year** [C]; 2030 ~$287 [helper].
+**Base:** 11% / 6% / 28x → **9.2% a year** [C].
 **Break:** backlog falls quarter on quarter, or FCF below 50% of net income.
 **Sources:** [Q2 2026 results](https://investors.quantaservices.com/news-events/press-releases/detail/402/quanta-services-reports-second-quarter-2026-results) · [FY2025 results](https://investors.quantaservices.com/news-events/press-releases/detail/390/quanta-services-reports-fourth-quarter-and-full-year-2025-results)
 
@@ -312,7 +313,7 @@ data-center-concentrated and crowded, fell 25%+ on DeepSeek [G], [source](https:
 ### Category 4: Outside AI
 
 #### BRK.B — Berkshire Hathaway · SHORT LIST #4, the hedge
-**Data:** $505.48 on 9/27/2026 [V]; ~2.16B B-equivalent shares [G]; ~$1.09T [C]. Cash and
+**Data:** $505.56 (latest trade, Fri 9/25 after-hours) [V, quote]; ~2.16B B-equivalent shares [G]; ~$1.09T [C]. Cash and
 T-bills $365.5B at 6/30 [V]; book value $349.32/share [V]; price/book 1.45 vs 5-year average
 ~1.5 [V/G]. Operating earnings Q2 $12.98B, +16% [V]; manufacturing/retail +24%, energy +27% [V].
 Buybacks $4.5B in Q2 and $3.3B in July; $20B net stock purchases [V]. Rose ~4% in 2022 while
@@ -329,7 +330,7 @@ FCF doesn't fit an insurer.)
 **Sources:** [Q2 2026 earnings](https://www.cnbc.com/2026/08/08/berkshire-hathaway-earnings-q2-2026.html) · [cash and buybacks](https://www.thestreet.com/investing/berkshire-hathaway-greg-abel-365-billion-cash-buybacks-dividend)
 
 #### UNH — UnitedHealth · recovery, not asymmetric
-**Data:** $376.59 on 9/25/2026 [V]; ~905M shares [G]; ~$341B [C]; net debt ~$49B (debt $73.3B
+**Data:** $377.17 (latest trade, Fri 9/25 after-hours) [V, quote]; ~905M shares [G]; ~$341B [C]; net debt ~$49B (debt $73.3B
 less $24.4B cash) [V/C]. Revenue $447.6B FY25 [V]. Medical care ratio 86.7% vs 89.4% a year
 earlier [V]; medical costs $75.4B vs $78.6B [V]. 2026 guide adjusted EPS $19.50-20.00, operating
 cash flow ~$24B [V]; ~19x vs 5-year average ~21x [C/G]. 2027 Medicare Advantage rate +3% [V]; a
@@ -343,7 +344,7 @@ Advantage clawback → 2030 ~$240 [helper]. Upside ~1.4x downside [C/O].
 **Sources:** [2025 results and 2026 outlook](https://www.morningstar.com/news/business-wire/20260126830491/unitedhealth-group-reports-2025-results-and-issues-2026-outlook) · [special master ruling](https://kffhealthnews.org/courts/unitedhealth-special-master-ruling-medicare-advantage-overpayments/) · [2026 recap](https://www.tikr.com/blog/unitedhealth-stock-is-up-14-in-2026-time-to-sell-or-load-up)
 
 #### PEP — PepsiCo · cheap on earnings, not on cash
-**Data:** $130.78 on 9/24/2026 [V]; 52-week low $127.98, down 24% from ~$171 [V]; 1.37B shares
+**Data:** $128.75 (latest trade, Fri 9/25 after-hours) [V, quote] — near its prior 52-week low of $127.98 [V], down ~25% from ~$171 [C]; 1.37B shares
 [C]; ~$179B; debt $49.2B, net debt ~$40B [V/G]. Revenue $93.9B FY25 [V]. Core operating margin
 16.8% vs 17.2% [V]; Q2 core operating profit -8%, volume flat despite price cuts [V]. FY25 FCF
 $7.67B [V]; GAAP EPS $6.00 [V]. 2026 guide held: organic +2-4%, core EPS +4-6% [V]. ~15.6x core
@@ -353,11 +354,11 @@ EV/FCF ~28x [C].
 **Thesis:** The market prices a permanent decline for brands still growing organically; if AI
 money rotates out, staples are where it goes. The honest caveat: it's cheap on earnings only if
 heavy capex returns to normal.
-**Bull (FCF):** 4.5%, 11%, 22x → **~9.9% a year** [C]; on earnings, 2030 ~$230 (EPS $10.50 ×
+**Bull (FCF):** 4.5%, 11%, 22x → **~10.1% a year** [C]; on earnings, 2030 ~$230 (EPS $10.50 ×
 22) [helper].
-**Bear (FCF):** 1%, 8%, 16x → **about -0.3% a year** [C]; on earnings, 2030 ~$105 (EPS $7.50 ×
+**Bear (FCF):** 1%, 8%, 16x → **about -0.1% a year** [C]; on earnings, 2030 ~$105 (EPS $7.50 ×
 14) [helper] — weight-loss drugs and soda/dye policy keep volumes falling.
-**Base (FCF):** 3% / 10% / 19x → **5.9% a year** [C].
+**Base (FCF):** 3% / 10% / 19x → **6.0% a year** [C].
 **Break:** Oct 8 results cut 2026 guidance, or volume still negative in 2027.
 **Sources:** [near 52-week low](https://www.investing.com/news/stock-market-news/pepsico-stock-near-52week-low-ahead-of-october-earnings-test-is-it-a-buy-93CH-4914833) · [FY2025 results](https://www.sec.gov/Archives/edgar/data/77476/000007747626000009/q420258-kxexhibit991.htm) · [staples relative low](https://www.thechartreport.com/TheMorningPrint/09-25-26)
 
@@ -369,8 +370,8 @@ in a year points to real volume loss.
 
 ## Part 3 — Why the short list is what it is [O]
 1. **BKNG** — the only big name where AI savings are measured in the numbers AND the price is
-   below its own history. Base case 17.6%.
-2. **MYRG** — base case near your bar (11.3%), a possible forced selloff, and the one stock where
+   below its own history. Base case 17.5%.
+2. **MYRG** — base case near your bar (10.7%), a possible forced selloff, and the one stock where
    your job gives you information before the market.
 3. **ALNT** — the right bottleneck for the robotics theme, but already re-rated; watchlist.
 4. **BRK.B** — not for return; it fixes the one risk every other holding shares.
