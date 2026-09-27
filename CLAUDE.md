@@ -88,6 +88,7 @@ Published valuation tools (claude.ai artifacts): TTWO, META, CELH.
 
 ## This repo is the working base (set 2026-09-27)
 - All research, theory tests and paper-trade tracking live HERE, not in kleague-model.
+- `titan-class-notes.md` — the condensed class notes, the Tier A/B watchlist, and the six questions every AI theory goes through. **Start here for titan work.**
 - `findings/YYYY-MM-DD.md` — dated results. Each ends with a paper-trade ledger of dated calls to score later.
 - `scripts/` — `dcf.py` (10-yr low/mid/high return and 9%/12% values), `margin_test.py` (staged-margin plan vs S&P history).
 - `data/spx_daily.csv` — S&P 500 daily closes 1960-01-04 to 2026-09-11, price only (no dividends). Copied from kleague-model's store.
