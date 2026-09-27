@@ -58,6 +58,10 @@ pro-tier price increases holding without churn.
 - **The key mechanism:** generative credits are usage-based. Revenue becomes seats × price
   **plus** credits used. If AI cuts seats, heavier usage by the seats that remain can offset
   it. This is the direct answer to the seat-compression bear case.
+- **Token resale (user's theory, register T8):** Adobe buys AI capacity wholesale (its own
+  Firefly models plus third-party models offered inside Firefly [G]) and sells it retail: a
+  default credit allowance per plan, paid packs beyond it. If model costs keep falling while
+  credit prices hold, the margin on AI grows. Test: gross margin holding as credit use rises.
 
 ### 3. Second order: AI makes more content, and content needs a supply chain
 - If AI multiplies how much marketing content companies make, the bottleneck moves to editing,

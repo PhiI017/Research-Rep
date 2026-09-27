@@ -76,6 +76,18 @@ Status: `raw` (stated, not tested) · `testing` · `holds` · `broken` · `parke
 - Source: the interview notes. This is the bear case to T1 and should be tracked alongside it.
 - Test: AI capex vs. AI revenue at the hyperscalers, and whether the gap narrows.
 
+### T8 — Token resale: software companies buy AI wholesale and sell usage retail · `raw`
+- Source: user, 2026-09-27. AI labs (Anthropic, OpenAI) sell tokens to software companies
+  (Adobe), which build them into features with a default allowance and charge for extra use —
+  so customers end up spending more on AI through the tools they already pay for.
+- Already visible [G]: Adobe's generative credits (monthly allowance per plan, paid credit packs
+  beyond it), and third-party models (e.g., OpenAI, Google) offered inside Adobe's Firefly app.
+- Who wins: the company that owns the customer and sets the retail price, IF token costs fall
+  faster than the credit price. Risk: labs sell direct and cut out the middle; price competition
+  forces credit prices down; customers resist overage charges.
+- Test: gross margin holding while credit usage grows; credit/usage revenue as a share of the
+  total; how many large software companies adopt allowance-plus-overage pricing.
+
 ### T7 — Adobe: AI implementation, not takeover · `testing` (held)
 - Full thesis: `theses/adobe.md`. Distribution plus AI inside the tools, with pricing moving from
   seats to seats plus usage (credits). The internal-AI leg is unproven (opex +15% > revenue +13%).
