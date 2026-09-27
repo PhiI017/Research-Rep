@@ -100,6 +100,9 @@ Near-misses: HOOD/IBKR (fell ~75% in 2022 — crashes with AI [G]); General Mill
 3. **ALNT** — watchlist for the robotics thesis; buy on a drop.
 4. **BRK.B** — the fragility hedge your portfolio lacks.
 
-## Paper-trade ledger (all 2026-09-27)
-BKNG $163.95 · MYRG $279.28 · ALNT $109.35 · BRK.B $505.48 · LASR $40.00 · RCAT $6.70 ·
-HUBB $466.62 · PWR $645.21 · JPM $343.10 · WMT ~$107 · UNH $376.59 · PEP $130.78
+## Paper-trade ledger — prices refreshed via `scripts/quote.py`
+Latest Yahoo trade, Fri 2026-09-25 after-hours (Robinhood overnight/weekend trades not included):
+BKNG $164.55 · MYRG $292.58 · ALNT $116.01 · BRK.B $505.56 · LASR $40.50 · RCAT $6.70 ·
+HUBB $466.62 · PWR $649.13 · JPM $343.10 · WMT $107.91 · UNH $377.17 · PEP $128.75
+Base cases re-run at these prices [C]: ALNT 8.5% · MYRG 10.7% · LASR 12.3% · BKNG 17.5% ·
+PWR 9.2% · PEP 6.0% · WMT 2.5%. No verdict changed.

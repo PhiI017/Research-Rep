@@ -42,7 +42,7 @@ Everything added is re-sent every later turn, so early additions cost most.
 - `titan-class-notes.md` — the condensed class notes, the Tier A/B watchlist, and the six questions every AI theory goes through. **Start here for titan work.**
 - `theses/REGISTER.md` — every thesis, its status, its test, and its break condition. Robotics is PINNED there. `theses/thoughts-*.md` are the user's raw notes, word for word.
 - `findings/YYYY-MM-DD.md` — dated results. Each ends with a paper-trade ledger of dated calls to score later.
-- `scripts/` — `dcf.py` (10-yr low/mid/high return and 9%/12% values), `margin_test.py` (staged-margin plan vs S&P history).
+- `scripts/` — `dcf.py` (10-yr low/mid/high return and 9%/12% values), `margin_test.py` (staged-margin plan vs S&P history), `quote.py` (latest price incl. after-hours — run before citing any price).
 - `data/spx_daily.csv` — S&P 500 daily closes 1960-01-04 to 2026-09-11, price only (no dividends). Copied from kleague-model's store.
 - Page fetching was blocked in the first session; figures came from search summaries. Re-verify before acting.
 - Research only. Do not build apps or tools here unless asked.

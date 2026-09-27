@@ -4,6 +4,10 @@ Companion to `2026-09-27-claude-picks.md` (the short version). This file explain
 process step by step, lists every number used and where it came from, and gives the full
 thesis, bull case and bear case for each of the twelve stocks.
 
+**Price note:** prices below are as the research helpers found them (9/20-9/26). Refreshed
+latest trades and re-run base cases are in the ledger of `2026-09-27-claude-picks.md`; the
+biggest moves were ALNT $109.35 → $116.01 and MYRG $279.28 → $292.58. No verdict changed.
+
 **Labels:** [V] verified from a filing or company release · [C] my calculation ·
 [G] general knowledge or an approximate figure from an aggregator · [O] opinion.
 **Nothing here is financial advice.**
