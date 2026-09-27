@@ -78,5 +78,5 @@ Data center cooling; optical interconnects (Applied Optoelectronics, Credo); pow
 ## 12. Open items
 - Run PLPC and Hammond through the four-step method.
 - Share AI theories; test each (what changes, who pays, bottleneck, timeline, priced in, how to test).
-- Build auto-updater in Claude Code (spec in CLAUDE.md).
+- Build auto-updater in Claude Code (spec in reference/auto-updater.md; already built as kleague-model alerts/).
 - Optional: Adobe/Qualcomm tools; TTWO Online-launch slider; clarify "BOT" ticker.
