@@ -19,6 +19,26 @@ while the market prices it as a company AI will shrink.
 
 This is your "distribution wins" principle applied to one company.
 
+## The core leg (user, 2026-09-27): professionals need control AI doesn't replace
+AI isn't built to take Adobe's place in the market. Adobe is the tool professionals use on
+projects that need control at a micro-detail level: exact layers, color, type, masking,
+frame-accurate video, print-ready output. Those professionals need Adobe's tools; AI won't take
+that over. It improves the product Adobe sells. The latest earnings back this up.
+
+**What the earnings support [V]:** ARR +11.2% and subscription revenue +14%, with guidance
+raised. No mention of fewer seats or lower renewals. AI is being bought as an add-on inside the
+tools (AI-first ARR +150%, Firefly credits +40% in a quarter), which is AI improving the product,
+not replacing it.
+**What the earnings can't show yet [O]:** Adobe doesn't report professional seats separately, and
+much of the user growth is Acrobat/Express, not pro Creative Cloud. So "pros are staying" is
+consistent with the numbers, not proven by them.
+**The sharper risk to this leg [O]:** not that professionals leave, but that each one does more
+with AI, so companies need fewer of them (fewer seats per project). Usage-based credits are the
+offset. Also watch the entry level: if beginners learn on Canva and AI tools, fewer become Adobe
+pros later.
+**Test:** management commentary on Creative Cloud Pro seats and renewals each quarter; the
+pro-tier price increases holding without churn.
+
 ## The four legs, with evidence
 
 ### 1. Distribution AI can't copy
