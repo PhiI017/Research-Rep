@@ -53,3 +53,29 @@ Sources: [Q3 release](https://www.sec.gov/Archives/edgar/data/0000796343/0000796
 [Q2 analysis](https://semiconalpha.substack.com/p/adobe-q2-fy2026-record-revenue-but) ·
 [Narayen sale](https://finance.yahoo.com/markets/stocks/articles/adobe-ceo-shantanu-narayen-sells-212001776.html) ·
 [FTC settlement](https://www.justice.gov/opa/pr/adobe-agrees-150-million-settlement-and-injunction-resolve-alleged-violations-restore-online)
+
+## Q3 FY26 vs. past third quarters (FY2019-FY2026), added 2026-09-27
+Net new ARR in Q3 (Digital Media to FY24, total from FY25) [V/G]: FY19 $386M · FY20 $458M ·
+FY21 $455M · FY22 $449M · FY23 $464M · FY24 $504M · FY25 ~$640M · **FY26 ~$390M organic (-38%)**.
+Before FY26 it had never fallen more than ~1% y/y.
+Q4 ÷ Q3 net new ARR: 1.15-1.44, median ~1.25. **FY26 needs ~1.99** for the 10.2% target;
+even the best past ratio (1.44) gives only ~$560M vs the ~$775M needed [C].
+RPO growth vs revenue growth in Q3: at or above in every year found except FY22 (12% vs 13%,
+recovered next quarter). **FY26: 8% vs 13%, widest gap on record.**
+**Organic vs acquired:** total ARR +11.2% includes ~$480M from Semrush; organic ≈ +8% [G] —
+above the 6% break line, below the 9% confirm line.
+Operating cash flow Q3 FY26 $2.52B, +15%, a Q3 record [V] — contradicts the unverified "FCF -9.5%".
+Stock after Q3 reports (adjusted close, Yahoo) [C]: next day FY19 -1.7% · FY20 -4.4% · FY21 -3.1%
+· FY22 -16.8% on report day (Figma) · FY23 -4.2% · FY24 -8.5% · FY25 -0.3% · FY26 +1.4% (first
+positive in eight years). 12 months later: FY19 +67% · FY20 +33% · FY21 -56% · FY22 +72% ·
+FY23 -6% · FY24 -40% · FY25 -24%.
+Verdict [O]: Q3 FY26 is unusual — the order-book signals are the weakest on record while revenue
+and cash are strong. A miss of the 10.2% ARR target in December is more likely than not.
+Sources: [Q3 FY26](https://www.sec.gov/Archives/edgar/data/0000796343/000079634326000147/adbeex991q326.htm) ·
+[Q3 FY25](https://www.sec.gov/Archives/edgar/data/796343/000079634325000102/adbeex991q325.htm) ·
+[Q3 FY24](https://www.sec.gov/Archives/edgar/data/796343/000079634324000200/adbeex991q324.htm) ·
+[Q3 FY23](https://www.sec.gov/Archives/edgar/data/796343/000079634323000198/adbeex991q323.htm) ·
+[Q3 FY22](https://www.sec.gov/Archives/edgar/data/796343/000079634322000183/adbeex991q322.htm) ·
+[Q3 FY21](https://www.sec.gov/Archives/edgar/data/796343/000079634321000198/adbeex991q321.htm) ·
+[Q3 FY19](https://www.sec.gov/Archives/edgar/data/796343/000079634319000159/adbeex991q319.htm) ·
+[Morgan Stanley](https://www.thestreet.com/investing/adobe-stock-morgan-stanley-rating-1-billion-users)
