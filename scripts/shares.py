@@ -45,6 +45,10 @@ if __name__ == "__main__":
         cik = c.zfill(10)
         try:
             last, rows = shares(cik)
+            # A company that stopped tagging returns its last-ever count (2009 for Comcast): refuse it.
+            if last < "2025-10-01":
+                print(f"{t:6s} STALE: latest cover-page count is {last}; company no longer tags it — use the 10-Q cover by hand")
+                continue
             vals = [r["val"] for r in rows]
             print(f"{t:6s} {last}  {rows[0]['form']:5s} " + " + ".join(f"{v/1e6:,.2f}M" for v in vals)
                   + (f" = {sum(vals)/1e6:,.2f}M" if len(vals) > 1 else ""))
